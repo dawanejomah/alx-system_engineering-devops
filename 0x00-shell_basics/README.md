@@ -16,4 +16,6 @@
 16. mv [[:upper:]]* /tmp/u a script that moves all files beginning with an uppercase letter to the directory /tmp/u
 rm *~  a script that deletes all files in the current working directory that end with the character ~
 17. mkdir -p welcome/to/school a script that creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory
-18. ls -amvp a command that lists all the files and directories of the current directory, separated by commas 
+18. ls -amvp a command that lists all the files and directories of the current directory, separated by commas
+19. 0 string SCHOOL School data
+!:mime School creates a magic file school.mgc that can be used with the command file to detect School data files. School data files always contain the string SCHOOL at offset 0. 
